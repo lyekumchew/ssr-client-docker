@@ -2,7 +2,7 @@ version: "3.1"
 services:
   ssr-client:
 #    build: .
-    image: lyekumchew/ssr_client
+    image: lyekumchew/ssr-client
     volumes:
       - ./config.json:/etc/shadowsocksr/shadowsocks/config.json
     ports:
