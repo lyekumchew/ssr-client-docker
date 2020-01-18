@@ -1,6 +1,6 @@
 version: "3.1"
 services:
-  ssr_client:
+  ssr-client:
 #    build: .
     image: lyekumchew/ssr_client
     volumes:
